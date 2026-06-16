@@ -63,6 +63,24 @@ written, and the message/image counts.
 ChatGPT shares only. Claude / Gemini shares use different endpoints and are out
 of scope.
 
+## Development
+
+This repo doubles as a [Claude Code](https://claude.com/claude-code) skill. The
+"installed" copy lives under `~/.claude/skills/chatgpt-share-export/` (with its
+`trigger_evals.json` in the sibling `…-workspace/`), separate from this checkout.
+A `Makefile` keeps the two in sync:
+
+| Command | Direction |
+|---------|-----------|
+| `make status` | List which files differ (`=` same / `!=` differ) |
+| `make diff` | Full unified diff (installed skill vs repo) |
+| `make pull` | installed skill → repo (you edited the live skill) |
+| `make push` | repo → installed skill (you edited here) |
+| `make publish m="msg"` | `pull`, then `git commit` + `push` |
+
+`node_modules/` is not synced — run `npm install` on each side. If you don't use
+Claude Code, ignore all of this and just run `scripts/export_share.mjs` directly.
+
 ## License
 
 MIT

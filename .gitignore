@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Local Claude Code config
+.claude/
+
+# Generated exports (never commit personal conversations)
+*.html
+*.pdf
+!docs/**/*.html
+
+# OS noise
+.DS_Store

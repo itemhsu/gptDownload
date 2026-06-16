@@ -1,0 +1,23 @@
+[
+  {"query": "幫我把這個 ChatGPT 對話存成 PDF：https://chatgpt.com/share/6a299740-b624-83e8-81e3-4183bce15825 裡面有我上傳的截圖，記得一定要保留", "should_trigger": true},
+  {"query": "can you save https://chat.openai.com/share/9f2c1a40-1b1b-49aa-9d7e-3f2b1c8e7a10 to pdf? I tried printing it straight from chrome but every screenshot i pasted in came out totally blank", "should_trigger": true},
+  {"query": "I need a backup of this shared GPT chat before the link expires — both an html file and a pdf would be ideal. link is https://chatgpt.com/share/4d11e9c2-77aa-4b0c-bb55-9e0a2f1d6633", "should_trigger": true},
+  {"query": "把這串對話印成一份漂亮的 PDF，檔名直接用對話標題就好，不要自己亂取 https://chatgpt.com/share/7a8b9c0d-1234-4567-89ab-cdef01234567", "should_trigger": true},
+  {"query": "存檔這個對話 https://chatgpt.com/share/abc12345-de67-4f89-a012-b3456789cdef 我要拿給律師看，裡面那幾張收據照片一定要在", "should_trigger": true},
+  {"query": "my friend sent me a chatgpt.com/share link and i want the whole thing — text and the images partway down — downloaded into one self-contained file i can open offline", "should_trigger": true},
+  {"query": "這個 chatgpt 分享連結能不能轉成 html？我等一下要貼到公司內部 wiki 當作參考紀錄 https://chatgpt.com/share/0011aabb-ccdd-4eef-8899-001122334455", "should_trigger": true},
+  {"query": "convert this chatgpt share link into a clean document i can print double-sided and hand out at the meeting: https://chatgpt.com/share/55667788-99aa-4bbc-ddee-ff0011223344", "should_trigger": true},
+  {"query": "archive https://chatgpt.com/share/deadbeef-0000-4111-2222-333344445555 as a pdf please, it's a long thread about my green card application with a few photos of forms", "should_trigger": true},
+  {"query": "把這個 GPT 對話備份成檔案，html 跟 pdf 都要，名字用標題 https://chatgpt.com/share/aaaabbbb-cccc-4ddd-eeee-ffff00001111", "should_trigger": true},
+
+  {"query": "把我跟 Claude 的這段對話存成 PDF：https://claude.ai/share/2f9c8e10-44ab-4c2d-9e1f-7788aabbccdd", "should_trigger": false},
+  {"query": "I have a Gemini shared conversation at https://g.co/gemini/share/abcd1234 — can you turn it into a Word doc for me", "should_trigger": false},
+  {"query": "open https://chatgpt.com/share/6a299740-b624-83e8-81e3-4183bce15825 and just summarize the 3 main takeaways, i don't need a file", "should_trigger": false},
+  {"query": "幫我把這個 PDF son_gpt_signup.pdf 壓縮一下，再加個 CONFIDENTIAL 浮水印", "should_trigger": false},
+  {"query": "take a screenshot of the chatgpt conversation i currently have open in my browser tab", "should_trigger": false},
+  {"query": "我想把一篇網路文章 https://example.com/2026/06/global-entry-guide 存成 PDF 離線看", "should_trigger": false},
+  {"query": "how do i create a shareable link for my own chatgpt conversation so i can send it to a colleague?", "should_trigger": false},
+  {"query": "I want to export all my ChatGPT data from account settings — the full history zip, not a single conversation", "should_trigger": false},
+  {"query": "把這份 Word 報告 Q2_report.docx 轉成 PDF", "should_trigger": false},
+  {"query": "this chatgpt answer has a really nice comparison table in it, can you pull it into an excel spreadsheet for me", "should_trigger": false}
+]

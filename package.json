@@ -1,0 +1,11 @@
+{
+  "name": "chatgpt-share-export",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Export a public ChatGPT share link to self-contained HTML + A4 PDF",
+  "dependencies": {
+    "marked": "^12.0.0",
+    "playwright": "^1.44.0"
+  }
+}
